@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body img{
+    width: 80px;
+    object-fit: contain;
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description{
+    width: 1500px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.description div{
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.simptome, .apararea{
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.simptome_info{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result{
+    margin-top: 25px;
+}
+
+h3{
+    font-size: 21px;
+}
